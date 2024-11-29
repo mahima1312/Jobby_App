@@ -1,0 +1,22 @@
+.nav-links {
+  text-decoration: none;
+}
+
+.not-found-container {
+  height: 100vh;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.not-found-heading {
+  color:#ffffff ;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.not-found-description{
+  color:#ffffff ;
+  font-size: 15px;
+  margin: 0px;
+}

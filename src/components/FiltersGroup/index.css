@@ -1,0 +1,53 @@
+.filters-group-heading {
+  color: #f8fafc;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.list-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.checked-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.checked {
+  height: 10px;
+  width: 10px;
+}
+
+.label {
+  color: #f8fafc;
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.radio-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio {
+  height: 10px;
+  width: 10px;
+}
+
+@media screen and (min-width:576px){
+  .filters-group-heading{
+    font-size: 25px;
+  }
+  .checked{
+    height: 20px;
+  width: 20px;
+  }
+  .label{
+    font-size: 18px;
+  }
+  .radio{
+    height: 20px;
+  width: 20px;
+  }
+}
